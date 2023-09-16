@@ -9,7 +9,7 @@ import { faEnvelope, faComments } from "@fortawesome/free-regular-svg-icons";
 
 const Portfolio = () => {
   const emailAddress = "hasanthakariyawasam@gmail.com";
-  const phoneNumber = "+94714925204";
+  const phoneNumber = "+94 71 49 25 204";
 
   const handleClickEmail = () => {
     window.location.href = `mailto:${emailAddress}`;
@@ -25,7 +25,7 @@ const Portfolio = () => {
       <div className="profile-pic-container">
         <img
           className="profile-pic"
-          src="src/assets/profile.jpg"
+          src="https://i.ibb.co/6Psd4Mb/profile.jpg"
           alt="Hasantha Kariyawasam"
         />
       </div>
@@ -67,9 +67,9 @@ const Portfolio = () => {
 
       {/* Download CV Button */}
       <a
-        href="src\assets\CV of Hasantha Kariyawasam.pdf"
+        href="https://drive.google.com/file/d/1FiaNsWNLfTmQuD2NtmvseQzum10kPqX6/view?usp=sharing"
         target="_blank"
-        download
+        download rel="noreferrer"
       >
         <button className="download-cv-button">Download CV</button>
       </a>
