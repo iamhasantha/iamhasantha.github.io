@@ -1,0 +1,83 @@
+.portfolio {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+}
+
+.name-overlay {
+  text-align: center;
+  width: 100%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 40px;
+  color: white; /* Text color for your name */
+}
+
+.profile-pic-container {
+  width: 200px; /* Set the width of the container */
+  height: 200px; /* Set the height of the container */
+  overflow: hidden; /* Hide any overflowing parts of the image */
+  border-radius: 50%; /* Makes the container circular (for a rounded profile picture) */
+}
+
+.profile-pic {
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+}
+
+.email-box {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px; /* Add spacing from the content above */
+  }
+  
+  .email-box p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .email-link, .contact-link {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Center the icon vertically */
+  }
+  
+  .email-icon, .contact-icon {
+    margin-right: 5px; /* Add spacing between the email address and icon */
+    font-size: 1rem; /* Adjust the icon size */
+  }
+  
+  .email-link:hover {
+    text-decoration: none;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+
+.social-media {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  margin-top: 20px; /* Add spacing from the content above */
+  margin-bottom: 20px; /* Add spacing from the content below */
+}
+
+.social-icon {
+  font-size: 24px; /* Adjust the icon size */
+  margin: 0 10px; /* Add spacing between the icons */
+  color: #007bff; /* Change the icon color */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.social-icon:hover {
+  color: #0056b3; /* Change the icon color on hover */
+}
